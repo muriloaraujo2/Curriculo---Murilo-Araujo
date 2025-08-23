@@ -1,0 +1,102 @@
+body {
+  background-color: #dae2e1;
+}
+
+
+button {
+        border: none;
+  color: rgb(248, 244, 244);
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #1a2a55;
+    }
+
+
+nav {
+  width: 100%;           /* ocupa toda a largura */
+  
+  padding: 10px 0;
+  display: flex;         /* ativa flexbox */
+  justify-content: center; /* centraliza horizontalmente */
+  gap: 20px;             /* espaço entre os links */
+  z-index: 1000;         /* fica acima do conteúdo */
+}
+
+  
+
+.BotaoOpcoes{
+    text-align: center;
+}
+
+.ImagemMurilo {
+  background-image: url("Foto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: contain;  
+  
+  width: 50vw;   /* metade da largura da tela */
+  height: 70vh;  /* 80% da altura da tela */
+  
+  /* joga a div pro canto direito */
+  position: absolute;  
+  right: 0;           
+  top: 50%;           
+  transform: translateY(-50%); /* centraliza na vertical */
+  border-radius: 100%
+}
+
+
+.TextoHome {
+  position: relative;
+  z-index: 2; 
+  max-width: 40%; 
+  margin-left: 50px;
+  color: rgb(10, 10, 10);
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+   text-align: justify;
+  /* centraliza verticalmente na tela */
+  justify-content: center;
+  height: 100vh;  /* ocupa toda a altura da tela */
+  font-size: 2rem;
+}
+
+h1{
+  color: #fcf7f7;       /* cor do texto */
+  font-size: 3rem;      /* tamanho da fonte */
+  font-family: Arial, sans-serif;  /* tipo da fonte */
+  text-align: left;   /* alinhamento horizontal */
+  margin: 20px 0; 
+  padding-top: 20px;  
+  background-color: #1a2a55    /* margem superior e inferior */
+
+}
+.textopagina{
+  color: #0f0f0f; 
+  font-size: 1.5rem;
+  text-align: justify;
+
+}
+
+.formulario{
+            width: 800px;   /* largura da caixa */
+            height: 40px;   /* altura da caixa */
+            font-size: 16px; /* aumenta o tamanho do texto dentro */
+            padding: 5px;   /* espaço interno entre texto e borda */
+            border-radius: 8px; /* cantos arredondados */
+            margin-bottom: 15px;
+}
+
+.formulario_Mensagem{
+            width: 800px;   /* largura da caixa */
+            height: 200px;   /* altura da caixa */
+            font-size: 16px; /* aumenta o tamanho do texto dentro */
+            padding: 5px;   /* espaço interno entre texto e borda */
+            border-radius: 8px; /* cantos arredondados */
+            margin-bottom: 15px;
+}
